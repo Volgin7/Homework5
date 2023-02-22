@@ -4,6 +4,7 @@ public class Main {
         task2();
         task3();
         task4();
+        task5();
     }
 
     public static void task1() {
@@ -57,5 +58,54 @@ public class Main {
         }
 
     }
+
+    public static void task5() {
+        System.out.println("Задача 5");
+        int monthNumber = 9;
+
+        switch (monthNumber) {
+            case 1:
+                System.out.println("Сезон = ЗИМА");
+                break;
+            case 2:
+                System.out.println("Сезон = ЗИМА");
+                break;
+            case 3:
+                System.out.println("Сезон = ВЕСНА");
+                break;
+            case 4:
+                System.out.println("Сезон = ВЕСНА");
+                break;
+            case 5:
+                System.out.println("Сезон = ВЕСНА");
+                break;
+            case 6:
+                System.out.println("Сезон = ЛЕТО");
+                break;
+            case 7:
+                System.out.println("Сезон = ЛЕТО");
+                break;
+            case 8:
+                System.out.println("Сезон = ЛЕТО");
+                break;
+            case 9:
+                System.out.println("Сезон = ОСЕНЬ");
+                break;
+            case 10:
+                System.out.println("Сезон = ОСЕНЬ");
+                break;
+            case 11:
+                System.out.println("Сезон = ОСЕНЬ");
+                break;
+            case 12:
+                System.out.println("Сезон = ЗИМА");
+                break;
+            default:
+                System.out.println("Такого месяца не существует");
+        }
+
+    }
+
+
 
 }
